@@ -14,7 +14,15 @@ body {
   .container {
     text-align: center;
   }
-  
+ 
+  .valentine-img{
+    width: min(320px, 80vw);
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    object-fit: cover;
+  }
+
   h1 {
     font-size: 2.5em;
     color: #d32f2f;
